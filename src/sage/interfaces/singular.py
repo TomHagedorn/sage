@@ -139,6 +139,8 @@ We can calculate the Milnor number of `f`::
     sage: f.milnor()
     4
 
+Note that you need to use the 'ds' ordering to get the correct value for the Milnor number.     
+
 The Jacobian applied twice yields the Hessian matrix of
 `f`, with which we can compute.
 
